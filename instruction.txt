@@ -1,0 +1,20 @@
+Technology Stack:
+Python 3.8.3
+Django==3.1
+djangorestframework==3.11.1
+
+To run project install requirements with below command
+pip install -r requirements.txt
+
+apply migrations to database below commands:
+python manage.py makemigrations
+python manage.py migrate
+
+then run project:(command)
+python manage.py runserver
+
+api's to access:
+http://127.0.0.1:8000/api/outcode/M11  
+http://127.0.0.1:8000/api/nexus/M11    
+
+note:M11 is postcode 
